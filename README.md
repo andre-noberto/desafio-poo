@@ -3,32 +3,4 @@
 
  Aqui está o UML do projeto IPhone:
 
- classDiagram
-    class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-    }
-
-    class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-
-    class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    class iPhone {
-        +reprodutorMusical: ReprodutorMusical
-        +aparelhoTelefonico: AparelhoTelefonico
-        +navegadorInternet: NavegadorInternet
-    }
-
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
-
+![IPHONE](https://github.com/andre-noberto/desafio-poo/assets/160177058/df52c1ba-cfd6-445b-913d-ac5b6b9f8edb)
